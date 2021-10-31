@@ -1,0 +1,145 @@
+body {
+	background: linear-gradient(#e3f3e3, #e0dfc3, #d7e7d7);
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Lucida Sans', Geneva, sans-serif;
+}
+.avatar{
+	border-radius: 25%;
+	box-shadow: 3px -3px 3px 3px black;
+	margin: 20px 10px;
+}
+.info p{
+	color: #46494f;
+	margin-bottom: 20px;
+	font-size: 18px;
+	word-spacing: 5px;
+}
+h1 {
+margin-bottom: -10px;	
+}
+
+.info {
+	display: flex;
+}
+.text-info {
+	margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+} 
+a:active {
+	color: #8a3;
+}
+
+.card {
+	padding: 15px 20px;
+	background: linear-gradient(#e3f3e3, #e0dfc3, #d7e7d7);
+	margin-bottom: 15px;
+	border-radius: 15px;
+	box-shadow: 3px -3px 3px 3px gray;
+}
+
+.list {
+	padding: 0 20px;
+}
+
+.list li {
+	margin-bottom: 10px;
+}
+
+.table td {
+	padding: 15px;
+	border-radius: 10px;
+}
+.table tr:nth-child(even) {
+	background-color: #e3f3e3;
+}
+.table tr:nth-child(odd) {
+	background-color: #d7e7d7;
+}
+
+.form-group label {
+	display: block;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 90%;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	font-family: inherit;
+	background: radial-gradient(#adf, #cee);
+	padding: 10px 5px 5px 5px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 3px #aaa;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form-group {
+	width: 40%;
+}
+
+.btn {
+	color: #111;
+	padding: 12px 20px;
+	background: radial-gradient(#69a, #adf);
+	border: none;
+	border-radius: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	box-shadow: 2px 2px 2px 3px #aaa;
+	cursor: pointer;
+}
+.btn:hover {
+	opacity: 0.8;
+}
+
+.social {display: inline-block;}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 1px 0.1rem 10px 2.5em;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.telegram a {background: #249bd7}
+.vk a {background: #4a76a8}
+.whatsapp a {background: #50b154}
+
+.social a:hover {
+	border-color: #888;
+	opacity: .8;
+}
